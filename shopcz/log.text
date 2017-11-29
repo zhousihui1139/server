@@ -7292,172 +7292,19 @@ XXL' where attr_id=3
 [2017-11-15 18-29-19]SELECT * FROM cz_brand where `brand_name` like '%%' limit 0,20
 [2017-11-15 18-29-20]set names utf8
 [2017-11-15 18-29-20]SELECT * FROM cz_category
-[2017-11-15 19-01-28]set names utf8
-[2017-11-15 19-01-28]SELECT * FROM cz_category
-[2017-11-15 19-01-28]set names utf8
-[2017-11-15 19-01-28]SELECT * FROM cz_goods where is_best=1 AND is_onsale=1 order by goods_id DESC limit 4
-[2017-11-15 19-01-39]set names utf8
-[2017-11-15 19-01-39]SELECT * FROM cz_category
-[2017-11-15 19-01-40]set names utf8
-[2017-11-15 19-01-40]SELECT * FROM cz_category
-[2017-11-15 19-01-40]set names utf8
-[2017-11-15 19-01-40]SELECT * FROM cz_category
-[2017-11-15 19-01-40]set names utf8
-[2017-11-15 19-01-40]SELECT * FROM cz_category
-[2017-11-15 19-01-41]set names utf8
-[2017-11-15 19-01-41]SELECT * FROM cz_category
-[2017-11-15 19-01-41]set names utf8
-[2017-11-15 19-01-41]SELECT * FROM cz_category
-[2017-11-15 19-01-41]set names utf8
-[2017-11-15 19-01-41]SELECT * FROM cz_category
-[2017-11-15 19-01-41]set names utf8
-[2017-11-15 19-01-41]SELECT * FROM cz_category
-[2017-11-15 19-01-41]set names utf8
-[2017-11-15 19-01-41]SELECT * FROM cz_category
-[2017-11-15 19-01-41]set names utf8
-[2017-11-15 19-01-41]SELECT * FROM cz_category
-[2017-11-15 19-01-42]set names utf8
-[2017-11-15 19-01-42]SELECT * FROM cz_category
-[2017-11-15 19-01-42]set names utf8
-[2017-11-15 19-01-42]SELECT * FROM cz_category
-[2017-11-15 19-01-42]set names utf8
-[2017-11-15 19-01-42]SELECT * FROM cz_category
-[2017-11-15 19-01-42]set names utf8
-[2017-11-15 19-01-42]SELECT * FROM cz_category
-[2017-11-15 19-01-42]set names utf8
-[2017-11-15 19-01-42]SELECT * FROM cz_category
-[2017-11-15 19-01-42]set names utf8
-[2017-11-15 19-01-43]SELECT * FROM cz_category
-[2017-11-15 19-01-52]set names utf8
-[2017-11-15 19-01-52]SELECT * FROM cz_category
-[2017-11-15 19-01-54]set names utf8
-[2017-11-15 19-01-54]SELECT * FROM cz_brand
-[2017-11-15 19-01-54]SELECT * FROM cz_brand where `brand_name` like '%%' limit 0,20
-[2017-11-15 19-01-55]set names utf8
-[2017-11-15 19-01-55]SELECT * FROM cz_goods_type
-[2017-11-15 19-01-55]SELECT t.*,count(attr_id) as type_count FROM cz_goods_type AS t left JOIN cz_attribute  AS a ON t.type_id=a.type_id GROUP BY type_name ORDER BY type_id LIMIT 0,2
-[2017-11-15 19-01-56]set names utf8
-[2017-11-15 19-01-56]SELECT * FROM cz_category
-[2017-11-15 19-02-02]set names utf8
-[2017-11-15 19-02-02]SELECT * FROM cz_category
-[2017-11-15 19-02-04]set names utf8
-[2017-11-15 19-02-04]SELECT * FROM cz_category
-[2017-11-15 19-02-04]SELECT * FROM cz_category where `cat_id`=3
-[2017-11-15 19-02-07]set names utf8
-[2017-11-15 19-02-07]SELECT * FROM cz_category
-[2017-11-15 19-02-07]UPDATE cz_category SET `cat_name`='男装1',`parent_id`='1',`unit`='件',`sort_order`='50',`cat_desc`='男人的衣柜',`is_show`='1',`cat_id`='3' where cat_id=3
-[2017-11-15 19-02-08]set names utf8
-[2017-11-15 19-02-08]SELECT * FROM cz_category
-[2017-11-15 19-02-09]set names utf8
-[2017-11-15 19-02-09]SELECT * FROM cz_category
-[2017-11-15 19-02-09]SELECT * FROM cz_category where `cat_id`=3
-[2017-11-15 19-02-13]set names utf8
-[2017-11-15 19-02-13]SELECT * FROM cz_category
-[2017-11-15 19-02-13]UPDATE cz_category SET `cat_name`='男装',`parent_id`='1',`unit`='件',`sort_order`='50',`cat_desc`='男人的衣柜',`is_show`='1',`cat_id`='3' where cat_id=3
-[2017-11-15 19-02-14]set names utf8
-[2017-11-15 19-02-14]SELECT * FROM cz_category
-[2017-11-15 19-02-33]set names utf8
-[2017-11-15 19-02-33]SELECT * FROM cz_category
-[2017-11-15 19-02-33]set names utf8
-[2017-11-15 19-02-33]SELECT * FROM cz_goods where is_best=1 AND is_onsale=1 order by goods_id DESC limit 4
-[2017-11-15 19-02-37]set names utf8
-[2017-11-15 19-02-37]SELECT * FROM cz_category
-[2017-11-23 19-56-33]set names utf8
-[2017-11-23 19-56-34]SELECT * FROM cz_category
-[2017-11-23 19-56-34]set names utf8
-[2017-11-23 19-56-34]SELECT * FROM cz_goods where is_best=1 AND is_onsale=1 order by goods_id DESC limit 4
-[2017-11-23 19-56-38]set names utf8
-[2017-11-23 19-56-38]SELECT * FROM cz_category
-[2017-11-23 19-56-38]set names utf8
-[2017-11-23 19-56-38]SELECT * FROM cz_category
-[2017-11-23 19-56-38]set names utf8
-[2017-11-23 19-56-38]SELECT * FROM cz_category
-[2017-11-23 19-56-38]set names utf8
-[2017-11-23 19-56-38]SELECT * FROM cz_category
-[2017-11-23 19-56-38]set names utf8
-[2017-11-23 19-56-38]SELECT * FROM cz_category
-[2017-11-23 19-56-38]set names utf8
-[2017-11-23 19-56-38]SELECT * FROM cz_category
-[2017-11-23 19-56-38]set names utf8
-[2017-11-23 19-56-38]SELECT * FROM cz_category
-[2017-11-23 19-56-38]set names utf8
-[2017-11-23 19-56-38]SELECT * FROM cz_category
-[2017-11-23 19-56-38]set names utf8
-[2017-11-23 19-56-38]SELECT * FROM cz_category
-[2017-11-23 19-56-38]set names utf8
-[2017-11-23 19-56-38]SELECT * FROM cz_category
-[2017-11-23 19-56-38]set names utf8
-[2017-11-23 19-56-38]SELECT * FROM cz_category
-[2017-11-23 19-56-38]set names utf8
-[2017-11-23 19-56-38]SELECT * FROM cz_category
-[2017-11-23 19-56-38]set names utf8
-[2017-11-23 19-56-38]SELECT * FROM cz_category
-[2017-11-23 19-56-39]set names utf8
-[2017-11-23 19-56-39]SELECT * FROM cz_category
-[2017-11-23 19-56-39]set names utf8
-[2017-11-23 19-56-39]SELECT * FROM cz_category
-[2017-11-23 19-56-39]set names utf8
-[2017-11-23 19-56-39]SELECT * FROM cz_category
-[2017-11-23 19-56-39]set names utf8
-[2017-11-23 19-56-39]SELECT * FROM cz_category
-[2017-11-23 19-56-39]set names utf8
-[2017-11-23 19-56-39]SELECT * FROM cz_category
-[2017-11-23 19-56-39]set names utf8
-[2017-11-23 19-56-39]SELECT * FROM cz_category
-[2017-11-23 19-56-39]set names utf8
-[2017-11-23 19-56-39]SELECT * FROM cz_category
-[2017-11-23 19-56-39]set names utf8
-[2017-11-23 19-56-39]SELECT * FROM cz_category
-[2017-11-23 19-56-39]set names utf8
-[2017-11-23 19-56-39]SELECT * FROM cz_category
-[2017-11-23 19-56-39]set names utf8
-[2017-11-23 19-56-39]SELECT * FROM cz_category
-[2017-11-23 19-56-39]set names utf8
-[2017-11-23 19-56-39]SELECT * FROM cz_category
-[2017-11-23 19-56-39]set names utf8
-[2017-11-23 19-56-39]SELECT * FROM cz_category
-[2017-11-23 19-56-39]set names utf8
-[2017-11-23 19-56-39]SELECT * FROM cz_category
-[2017-11-23 19-56-39]set names utf8
-[2017-11-23 19-56-39]SELECT * FROM cz_category
-[2017-11-23 19-56-39]set names utf8
-[2017-11-23 19-56-39]SELECT * FROM cz_category
-[2017-11-23 19-56-39]set names utf8
-[2017-11-23 19-56-39]SELECT * FROM cz_category
-[2017-11-23 19-56-39]set names utf8
-[2017-11-23 19-56-39]SELECT * FROM cz_category
-[2017-11-23 19-56-39]set names utf8
-[2017-11-23 19-56-39]SELECT * FROM cz_category
-[2017-11-23 19-56-39]set names utf8
-[2017-11-23 19-56-39]SELECT * FROM cz_category
-[2017-11-23 19-56-39]set names utf8
-[2017-11-23 19-56-39]SELECT * FROM cz_category
-[2017-11-23 19-57-03]set names utf8
-[2017-11-23 19-57-03]SELECT * FROM cz_admin where admin_name='admin' AND password='e10adc3949ba59abbe56e057f20f883e' limit 1
-[2017-11-23 19-57-05]set names utf8
-[2017-11-23 19-57-05]SELECT * FROM cz_goods_type
-[2017-11-23 19-57-05]SELECT t.*,count(attr_id) as type_count FROM cz_goods_type AS t left JOIN cz_attribute  AS a ON t.type_id=a.type_id GROUP BY type_name ORDER BY type_id LIMIT 0,2
-[2017-11-23 19-57-06]set names utf8
-[2017-11-23 19-57-06]SELECT * FROM cz_category
-[2017-11-23 19-57-06]set names utf8
-[2017-11-23 19-57-06]SELECT * FROM cz_brand
-[2017-11-23 19-57-06]set names utf8
-[2017-11-23 19-57-06]SELECT * FROM cz_goods_type
-[2017-11-23 19-57-13]set names utf8
-[2017-11-23 19-57-13]SELECT * FROM cz_attribute where type_id=3
-[2017-11-23 19-57-14]set names utf8
-[2017-11-23 19-57-14]SELECT * FROM cz_attribute where type_id=1
-[2017-11-23 19-57-48]set names utf8
-[2017-11-23 19-57-48]SELECT * FROM cz_goods_type
-[2017-11-23 19-57-48]SELECT t.*,count(attr_id) as type_count FROM cz_goods_type AS t left JOIN cz_attribute  AS a ON t.type_id=a.type_id GROUP BY type_name ORDER BY type_id LIMIT 0,2
-[2017-11-23 19-57-49]set names utf8
-[2017-11-23 19-57-49]SELECT * FROM cz_brand
-[2017-11-23 19-57-49]SELECT * FROM cz_brand where `brand_name` like '%%' limit 0,20
-[2017-11-23 19-57-49]set names utf8
-[2017-11-23 19-57-49]SELECT * FROM cz_category
-[2017-11-23 19-57-51]set names utf8
-[2017-11-23 19-57-51]SELECT * FROM cz_category
-[2017-11-23 19-57-51]set names utf8
-[2017-11-23 19-57-51]SELECT * FROM cz_brand
-[2017-11-23 19-57-51]set names utf8
-[2017-11-23 19-57-51]SELECT * FROM cz_goods_type
+[2017-11-16 00-26-21]set names utf8
+[2017-11-16 00-26-21]SELECT * FROM cz_category
+[2017-11-16 00-26-21]set names utf8
+[2017-11-16 00-26-21]SELECT * FROM cz_goods where is_best=1 AND is_onsale=1 order by goods_id DESC limit 4
+[2017-11-16 00-26-32]set names utf8
+[2017-11-16 00-26-32]SELECT * FROM cz_category
+[2017-11-16 00-26-32]set names utf8
+[2017-11-16 00-26-32]SELECT * FROM cz_category
+[2017-11-16 00-26-32]set names utf8
+[2017-11-16 00-26-32]SELECT * FROM cz_category
+[2017-11-16 00-26-32]set names utf8
+[2017-11-16 00-26-32]SELECT * FROM cz_category
+[2017-11-16 00-26-32]set names utf8
+[2017-11-16 00-26-32]SELECT * FROM cz_category
+[2017-11-16 00-26-32]set names utf8
+[2017-11-16 00-26-32]SELECT * FROM cz_category

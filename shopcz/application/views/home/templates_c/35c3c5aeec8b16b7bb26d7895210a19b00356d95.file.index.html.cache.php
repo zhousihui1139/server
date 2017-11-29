@@ -1,30 +1,30 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2017-10-14 10:41:56
-         compiled from "E:\WWW\project\shopcz\application\views\home\templates\index.html" */ ?>
-<?php /*%%SmartyHeaderCode:1338959e01b7bd20521-36884917%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /* Smarty version Smarty-3.1.16, created on 2017-11-16 00:26:21
+         compiled from "G:\www\shopcz\shopcz\application\views\home\templates\index.html" */ ?>
+<?php /*%%SmartyHeaderCode:11605a0c6aadd7a678-93643447%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    '93bdfbe2378085493834a63df855af35b2f736d5' => 
+    '35c3c5aeec8b16b7bb26d7895210a19b00356d95' => 
     array (
-      0 => 'E:\\WWW\\project\\shopcz\\application\\views\\home\\templates\\index.html',
-      1 => 1507943592,
+      0 => 'G:\\www\\shopcz\\shopcz\\application\\views\\home\\templates\\index.html',
+      1 => 1508395200,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1338959e01b7bd20521-36884917',
+  'nocache_hash' => '11605a0c6aadd7a678-93643447',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.16',
-  'unifunc' => 'content_59e01b7bd7e132_67977332',
   'variables' => 
   array (
     'bestGoods' => 0,
     'best' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.16',
+  'unifunc' => 'content_5a0c6aaddb1176_31437337',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59e01b7bd7e132_67977332')) {function content_59e01b7bd7e132_67977332($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if ($_valid && !is_callable('content_5a0c6aaddb1176_31437337')) {function content_5a0c6aaddb1176_31437337($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />

@@ -7,7 +7,7 @@
  */
 
 return array(
-	'host' => '120.79.42.170',
+	'host' => 'localhost',
 	'user' => 'root',
 	'password' => 'root',
 	'dbname' => 'shopcz',
