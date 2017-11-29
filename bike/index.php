@@ -15,4 +15,4 @@ define("ROOT", getcwd().DS);//根路径
 // 定义应用目录
 define("APP_PATH",ROOT.'application'.DS);
 // 加载框架引导文件
-require ROOT . '/thinkphp/start.php';
+require ROOT . 'thinkphp/start.php';
