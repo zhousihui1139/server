@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html><head>
+	    <meta charset="utf-8">
+    <title>管理员</title>
+
+    <meta name="description" content="Dashboard">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!--Basic Styles-->
+    <link href="__ADMIN__/style/bootstrap.css" rel="stylesheet">
+    <link href="__ADMIN__/style/font-awesome.css" rel="stylesheet">
+    <link href="__ADMIN__/style/weather-icons.css" rel="stylesheet">
+
+    <!--Beyond styles-->
+    <link id="beyond-link" href="__ADMIN__/style/beyond.css" rel="stylesheet" type="text/css">
+    <link href="__ADMIN__/style/demo.css" rel="stylesheet">
+    <link href="__ADMIN__/style/typicons.css" rel="stylesheet">
+    <link href="__ADMIN__/style/animate.css" rel="stylesheet">
+    
+</head>
+<body>
+	<!-- 头部 -->
+    {include file='public/header'}
+	<!-- /头部 -->
+	
+	<div class="main-container container-fluid">
+		<div class="page-container">
+			<!-- Page Sidebar -->
+            {include file='public/left'}
+            <!-- /Page Sidebar -->
+            <!-- Page Content -->
+            <div class="page-content">
+                <!-- Page Breadcrumb -->
+                <div class="page-breadcrumbs">
+                    <ul class="breadcrumb">
+                        <li>
+                            <a href="{:url('index/index')}">系统</a>
+                        </li>
+                        <li class="active">管理员管理</li>
+                    </ul>
+                </div>
+                <!-- /Page Breadcrumb -->
+
+                <!-- Page Body -->
+                <div class="page-body">
+                    
+<button type="button" tooltip="添加管理员" class="btn btn-sm btn-azure btn-addon" onClick="javascript:window.location.href = '{:url('add')}'"> <i class="fa fa-plus"></i> Add
+</button>
+<div class="row">
+    <div class="col-lg-12 col-sm-12 col-xs-12">
+        <div class="widget">
+            <div class="widget-body">
+                <div class="flip-scroll">
+                    <table class="table table-bordered table-hover">
+                        <thead class="">
+                            <tr>
+                                <th class="text-center">ID</th>
+                                <th class="text-center">用户名称</th>
+                                <th class="text-center" width="20%">所属用户组</th>
+                                <th class="text-center" >操作</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {volist name='adminres' id='v'}
+                            <tr>
+                                <td align="center">{$v.id}</td>
+                                <td align="center">{$v.name}</td>
+                                {if $v.status==1}
+                                <td align="center" style="position: relative;" name='rules_show' onmouseover="$(this).children()[0].style.display='block';" onmouseout="$(this).children()[0].style.display='none';">
+<div style="display: none;position: absolute;top:-50px;left:150px;background-color: #fff;" >
+    <table class="table table-hover">
+        <thead class="bordered-darkorange">
+            <tr><th>拥有权限</th></tr>
+        </thead>
+        <tbody>
+            <!-- <ul class="list-group" style="width: 200px"> -->
+                {foreach $v.rules as $rule}
+        <tr value="{$rule.id}_{$key}" name='tr' title="点击收起子级权限" style="display: block;">
+            <td style="padding: 0;margin: 0">
+                <button type="button " name="{$key}" flag='1' class="list-group-item rule_button" subids="{$AuthRule->getSubIds($rule.id)}" style="text-align: left;width: 200px;"  onmouseover="this.style.backgroundColor='#F0F0F0'" onmouseout="this.style.backgroundColor='#FFF'">
+                <span class="badge"></span>
+                    {:str_repeat('&nbsp;',$rule.level*10)}{$rule.title}
+                </button>
+            </td>
+        </tr>
+                {/foreach}
+            <!-- </ul> -->
+        </tbody>
+    </table>
+</div>{$v.title}
+</td>
+{else}
+<td align="center" style="color: red">无效分组</td>
+{/if}
+                                <td align="center">
+                                    <a href="{:url('edit',array('id'=>$v['id']))}" class="btn btn-primary btn-sm shiny">
+                                        <i class="fa fa-edit"></i> 编辑
+                                    </a>
+                                    <a href="#" onClick="warning('确实要删除吗', '{:url('del',array('id'=>$v['id']))}')" class="btn btn-danger btn-sm shiny">
+                                        <i class="fa fa-trash-o"></i> 删除
+                                    </a>
+                                </td>
+                            </tr>
+                            {/volist}
+                        </tbody>
+                    </table>
+                </div>
+                <div style="padding-top:10px;text-align: center;z-index: 100">
+                    {$res->render()}
+                </div>
+                <div>
+                	                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                </div>
+                <!-- /Page Body -->
+            </div>
+            <!-- /Page Content -->
+		</div>	
+	</div>
+
+	    <!--Basic Scripts-->
+    <script src="__ADMIN__/style/jquery_002.js"></script>
+    <script src="__ADMIN__/style/bootstrap.js"></script>
+    <script src="__ADMIN__/style/jquery.js"></script>
+    <!--Beyond Scripts-->
+    <script src="__ADMIN__/style/beyond.js"></script>
+    <script type="text/javascript">
+    $('.rule_button').click(function() {
+        subids = $(this).attr('subids');
+        key = $(this).attr('name');
+        if(subids){
+            subids = subids.split(',');
+            if($(this).attr('flag') == 1){
+                for(i=0;i<subids.length;i++){
+                    if($('[value='+subids[i]+'_'+key+']')[0]){
+                        $('[value='+subids[i]+'_'+key+']')[0].style.display = 'none';
+                    }
+                }
+                $(this).attr('flag',0);
+                $(this).children().html(subids.length);
+            }else{
+                for(i=0;i<subids.length;i++){
+                     if($('[value='+subids[i]+'_'+key+']')[0]){
+                        $('[value='+subids[i]+'_'+key+']')[0].style.display = 'block';
+                    }
+                }
+                $(this).attr('flag',1);
+                $(this).children().html('');
+            }
+        }
+
+    })
+    </script>
+
+</body></html>

@@ -1,0 +1,50 @@
+<div id="header_wrap">
+    <div id="header">
+        <div style="float: left; width: 310px;">
+            <h1>
+                <a href="{:url('index/index')}" title="Bike"></a>
+                <div class="" id="logo-sub-class">
+                </div>
+            </h1>
+        </div>
+        <div id="navi">
+
+<ul id="jsddm">
+<li><a class="navi_home" href="{:url('index/index')}">首页</a></li>
+{volist name='cateres' id='cate'}
+<li>
+    <a  href="/bike/public/index.php/index/{if $cate.type==1}artlist{elseif $cate.type==2}page{elseif $cate.type==3}imglist{/if}/index/cateid/{$cate.id}">{$cate.catename}</a>
+    {if condition="isset($cate.child)"}
+    <ul>
+        {volist name='cate.child' id='v'}
+        <li><a href="/bike/public/index.php/index/{if $v.type==1}artlist{elseif $v.type==2}page{elseif $v.type==3}imglist{/if}/index/cateid/{$v.id}">{$v.catename}</a></li>
+        {/volist}
+    </ul>
+    {/if}
+</li>
+{/volist}
+</ul>
+
+            <div style="clear: both;">
+            </div>
+
+            
+        </div>
+        <div style="float: right; width: 209px;">
+            <div class="widget" style="height: 30px; padding-top: 20px;">
+                <div style="float: left;">
+      <form  name="formsearch" action="{:url('search/index')}" method="get">
+<input name="keywords" type="text" style="background-color: #000000;padding-left: 10px; font-size: 12px;font-family: 'Microsoft Yahei'; color: #999999;height: 29px; width: 160px; border: solid 1px #666666; line-height: 28px;" id="go" placeholder="在这里搜索..." onfocus="if(this.placeholder="" =='在这里搜索...'){this.placeholder="" ='';}"  onblur="if(this.placeholder="" ==''){this.placeholder="" ='在这里搜索...';}" />
+        </form>
+                        </div>
+                <div style="float: left;">
+                    <img src="__INDEX__/images/search-new.png" id="imgSearch" style="cursor: pointer; margin: 0px;
+                        padding: 0px;" onclick="subForm()"  /></div>
+                <div style="clear: both;">
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+</div>

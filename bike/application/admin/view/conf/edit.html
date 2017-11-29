@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>配置管理</title>
+
+    <meta name="description" content="Dashboard">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!--Basic Styles-->
+    <link href="__ADMIN__/style/bootstrap.css" rel="stylesheet">
+    <link href="__ADMIN__/style/font-awesome.css" rel="stylesheet">
+    <link href="__ADMIN__/style/weather-icons.css" rel="stylesheet">
+
+    <!--Beyond styles-->
+    <link id="beyond-link" href="__ADMIN__/style/beyond.css" rel="stylesheet" type="text/css">
+    <link href="__ADMIN__/style/demo.css" rel="stylesheet">
+    <link href="__ADMIN__/style/typicons.css" rel="stylesheet">
+    <link href="__ADMIN__/style/animate.css" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- 头部 -->
+    {include file="public/header" /} 
+    <!-- /头部 -->
+    
+    <div class="main-container container-fluid">
+        <div class="page-container">
+            <!-- Page Sidebar -->
+            {include file="public/left" /} 
+            <!-- /Page Sidebar -->
+            <!-- Page Content -->
+            <div class="page-content">
+                <!-- Page Breadcrumb -->
+                <div class="page-breadcrumbs">
+                    <ul class="breadcrumb">
+                        <li><a href="#">系统</a></li>
+                        <li><a href="{:url('showlist')}">配置项管理</a></li>
+                        <li class="active">修改配置项</li>
+                    </ul>
+                </div>
+                <!-- /Page Breadcrumb -->
+
+                <!-- Page Body -->
+                <div class="page-body">
+                    
+<div class="row">
+    <div class="col-lg-12 col-sm-12 col-xs-12">
+        <div class="widget">
+            <div class="widget-header bordered-bottom bordered-blue">
+                <span class="widget-caption">修改配置项</span>
+            </div>
+            <div class="widget-body">
+                <div id="horizontal-form">
+<form class="form-horizontal" role="form" action="" method="post">
+    <input type="hidden" name="id" value="{$conf.id}">
+    <input type="hidden" name="value" value="{$conf.value}">
+    <div class="form-group">
+        <label for="username" class="col-sm-2 control-label no-padding-right">中文名称</label>
+        <div class="col-sm-6">
+            <input class="form-control" required="true"  placeholder="" name="cnname" type="text" value="{$conf.cnname}">
+        </div>
+        <p class="help-block col-sm-4 red">* 必填</p>
+    </div>
+
+    <div class="form-group">
+        <label for="username" class="col-sm-2 control-label no-padding-right">英文名称</label>
+        <div class="col-sm-6">
+            <input class="form-control" required="true"  placeholder="" name="enname" type="text" value="{$conf.enname}">
+        </div>
+        <p class="help-block col-sm-4 red">* 必填</p>
+    </div>
+
+    <div class="form-group">
+        <label for="username" class="col-sm-2 control-label no-padding-right">配置类型</label>
+        <div class="col-sm-6">
+            <select name="type" disabled="true" title="编辑时不可更改此项">
+                <option value="1" {if condition="$conf.type==1"}selected='true'{/if}>单行文本</option>
+                <option value="2" {if condition="$conf.type==2"}selected='true'{/if}>多行文本</option>
+                <option value="3" {if condition="$conf.type==3"}selected='true'{/if}>单选按钮</option>
+                <option value="4" {if condition="$conf.type==4"}selected='true'{/if}>复选按钮</option>
+                <option value="5" {if condition="$conf.type==5"}selected='true'{/if}>下拉菜单</option>
+            </select>
+        </div>
+        <p class="help-block col-sm-4 red">* 必填</p>
+    </div>
+
+    <div class="form-group values" style="display: none">
+        <label for="username" class="col-sm-2 control-label no-padding-right"></label>
+        <div class="col-sm-6">
+            可选值&nbsp;&nbsp;(<span style="color:red">可选值之间以回车分隔</span>)
+            <textarea class="form-control" placeholder="" name="values">{$conf.values}</textarea>
+        </div>
+        <p class="help-block col-sm-4 red">* 必填</p>
+    </div>
+
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-default">保存信息</button>
+        </div>
+    </div>
+</form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                </div>
+                <!-- /Page Body -->
+            </div>
+            <!-- /Page Content -->
+        </div>  
+    </div>
+
+        <!--Basic Scripts-->
+    <script src="__ADMIN__/style/jquery_002.js"></script>
+    <script src="__ADMIN__/style/bootstrap.js"></script>
+    <script src="__ADMIN__/style/jquery.js"></script>
+    <!--Beyond Scripts-->
+    <script src="__ADMIN__/style/beyond.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            if($("[name=type]").val()>=3){
+                $('.values').attr('style','display:block');
+            }
+            $("[name=type]").change(function(){
+                if($(this).val() >= 3){
+                    $('.values').attr('style','display:block');
+                }else{
+                    $('.values').attr('style','display:none');
+                }
+            })
+        })
+    </script>
+    
+
+
+</body></html>

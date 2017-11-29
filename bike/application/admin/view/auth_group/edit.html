@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html><head>
+        <meta charset="utf-8">
+    <title>管理员组</title>
+
+    <meta name="description" content="Dashboard">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!--Basic Styles-->
+    <link href="__ADMIN__/style/bootstrap.css" rel="stylesheet">
+    <link href="__ADMIN__/style/font-awesome.css" rel="stylesheet">
+    <link href="__ADMIN__/style/weather-icons.css" rel="stylesheet">
+
+    <!--Beyond styles-->
+    <link id="beyond-link" href="__ADMIN__/style/beyond.css" rel="stylesheet" type="text/css">
+    <link href="__ADMIN__/style/demo.css" rel="stylesheet">
+    <link href="__ADMIN__/style/typicons.css" rel="stylesheet">
+    <link href="__ADMIN__/style/animate.css" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- 头部 -->
+    {include file="public/header" /} 
+    <!-- /头部 -->
+    
+    <div class="main-container container-fluid">
+        <div class="page-container">
+            <!-- Page Sidebar -->
+            {include file="public/left" /} 
+            <!-- /Page Sidebar -->
+            <!-- Page Content -->
+            <div class="page-content">
+                <!-- Page Breadcrumb -->
+                <div class="page-breadcrumbs">
+                    <ul class="breadcrumb">
+                                        <li>
+                        <a href="#">系统</a>
+                    </li>
+                                        <li>
+                        <a href="{:url('showlist')}">用户组管理</a>
+                    </li>
+                                        <li class="active">修改用户组</li>
+                                        </ul>
+                </div>
+                <!-- /Page Breadcrumb -->
+
+                <!-- Page Body -->
+                <div class="page-body">
+                    
+<div class="row">
+    <div class="col-lg-12 col-sm-12 col-xs-12">
+        <div class="widget">
+            <div class="widget-header bordered-bottom bordered-blue">
+                <span class="widget-caption">修改用户组</span>
+            </div>
+            <div class="widget-body">
+                <div id="horizontal-form">
+<form class="form-horizontal" role="form" action="" method="post">
+<input type="hidden" name="id" value="{$groupinfo.id}">
+<div class="form-group">
+    <label for="username" class="col-sm-2 control-label no-padding-right">用户组名称</label>
+    <div class="col-sm-6">
+        <input class="form-control"  placeholder="" name="title" required="" value="{$groupinfo.title}" type="text">
+    </div>
+    <p class="help-block col-sm-4 red">* 必填</p>
+</div>
+<div class="form-group">
+    <label for="username" class="col-sm-2 control-label no-padding-right">启用状态</label>
+    <div class="col-sm-6">
+    <p class="help-block col-sm-4 red">
+        <label>
+            <input class="checkbox-slider colored-darkorange" name="status" {if $groupinfo.status==1}checked="true"{/if} type="checkbox" onchange="if(this.checked==false){
+                $('[value=is_del]')[0].style.display='block';
+                $('[name=is_del]')[0].disabled=false;
+            }else{
+                $('[value=is_del]')[0].style.display='none';
+                $('[name=is_del]')[0].disabled=true;
+            }">
+            <span class="text"></span>
+        </label>
+    </p>
+    </div>
+    <p class="help-block col-sm-4 red">* 必填</p>
+</div>
+<div class="form-group" value='is_del' style="display: none">
+    <label for="username" class="col-sm-2 control-label no-padding-right">是否删除该分组下管理员</label>
+    <div class="col-sm-6">
+    <p class="help-block col-sm-4 yellow">
+        <label>
+            <input disabled="true" class="checkbox-slider colored-darkorange" value="1" name="is_del"  type="checkbox">
+            <span class="text"></span>
+        </label>
+    </p>
+    </div>
+</div>
+<div class="form-group">
+    <label for="username" class="col-sm-2 control-label no-padding-right"></label>
+    <div class="col-sm-6">
+       <table class="table table-hover">
+            <thead class="bordered-darkorange">
+                <tr>
+                    <th>
+                        配置权限
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+{volist name="rules" id="vo"}
+<tr>
+    <td>
+    <label>
+        <?php echo str_repeat('&nbsp;&nbsp;&nbsp;', $vo['level']*3);?>
+        <input name="rules[]" value="{$vo.id}" subids="{$vo->getSubIds($vo.id)}" supids="{$vo->getSupIds($vo.id)}"   class="inverted checkbox-parent {if $vo.level !== 0} checkbox-child {/if} " type="checkbox" {if in_array($vo.id,explode(',',$groupinfo.rules))}checked='true'{/if}>
+        <span {if $vo.level == 0} style="font-weight:bold; font-size:14px;" {/if} class="text">{$vo.title}</span>
+    </label>
+    </td>
+</tr>
+{/volist}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-default">保存信息</button>
+        </div>
+    </div>
+</form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                </div>
+                <!-- /Page Body -->
+            </div>
+            <!-- /Page Content -->
+        </div>  
+    </div>
+
+        <!--Basic Scripts-->
+    <script src="__ADMIN__/style/jquery_002.js"></script>
+    <script src="__ADMIN__/style/bootstrap.js"></script>
+    <script src="__ADMIN__/style/jquery.js"></script>
+    <!--Beyond Scripts-->
+    <script src="__ADMIN__/style/beyond.js"></script>
+    <script type="text/javascript">
+/* 权限配置 */
+$(function () {
+    //选中时  同时选中所有上级与后代选中框
+    $('[type=checkbox]').change(function() {
+        subids = $(this).attr('subids');
+        if(subids){
+            subids = subids.split(',');
+            for(i=0;i<subids.length;i++){
+                if(this.checked){
+                    $('[value='+subids[i]+']')[0].checked = true;
+                }else{
+                    $('[value='+subids[i]+']')[0].checked = false;
+                }
+            }
+        }
+        supids = $(this).attr('supids');
+        if(supids){
+            supids = supids.split(',');
+            for(i=0;i<supids.length;i++){
+                if(this.checked){
+                    $('[value='+supids[i]+']')[0].checked = true;
+                }
+            }
+        }
+    })
+});
+    </script>
+
+</body></html>

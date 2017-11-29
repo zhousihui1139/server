@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .clock{
+            position: relative;
+            margin: 0 auto;
+            width: 800px;
+            height: 1000px;
+            background: url('__ADMIN__/img/4.png') no-repeat;
+        }
+        #hour{
+            position: absolute;
+            top: 375px;
+            left:200px;
+        }
+        #minute{
+            position: absolute;
+            top: 375px;
+            left:200px;
+        }
+        #second{
+            position: absolute;
+            top: 375px;
+            left:200px;
+        }
+
+        .border1{
+            width: 800px;
+            height: 800px;
+            position: absolute;
+            background: url('__ADMIN__/img/6.png') 0 0 no-repeat;
+        }
+        .border2{
+            width: 800px;
+            height: 800px;
+            position: absolute;
+            background: url('__ADMIN__/img/7.png') 0 0 no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <div class="clock">
+        <div class="border1" id="border1"></div>
+        <div class="border2" id="border2"></div>
+        <div id="hour">
+            <img src="__ADMIN__/img/2.png"/>
+        </div>
+        <div id="minute">
+            <img src="__ADMIN__/img/1.png"/>
+        </div>
+        <div id="second">
+            <img src="__ADMIN__/img/3.png"/>
+        </div>
+    </div>
+<script>
+   setInterval(function(){
+        var hour = document.getElementById('hour');
+        var minute = document.getElementById('minute');
+        var second = document.getElementById('second');
+        //当前时间
+        var d = new Date();
+        var hNow = d.getHours();
+        var mNow = d.getMinutes();
+        var sNow = d.getSeconds();
+       //时间差(s)
+        var hs = (hNow-9)+mNow/60;
+        var ms = mNow-45+sNow/60;
+        var ss = sNow-45;
+
+        var h = 360/12;
+        var m = 360/60;
+        var s = 360/60;
+
+        hour.style.transform = 'rotate('+hs*h+ 'deg)';
+        minute.style.transform = 'rotate('+ms*m+ 'deg)';
+        second.style.transform = 'rotate('+ss*s+ 'deg)';
+   },1000);
+
+   var s=1;
+    setInterval(function(){
+        var border1 = document.getElementById('border1');
+        var border2 = document.getElementById('border2');
+        s += 1;
+        //边框
+        border1.style.transform = 'rotate('+ s +'deg)';
+        border2.style.transform = 'rotate('+ -s +'deg)';
+    },10);
+
+</script>
+</body>
+</html>

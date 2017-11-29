@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html><head>
+	    <meta charset="utf-8">
+    <title>配置值</title>
+
+    <meta name="description" content="Dashboard">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!--Basic Styles-->
+    <link href="__ADMIN__/style/bootstrap.css" rel="stylesheet">
+    <link href="__ADMIN__/style/font-awesome.css" rel="stylesheet">
+    <link href="__ADMIN__/style/weather-icons.css" rel="stylesheet">
+
+    <!--Beyond styles-->
+    <link id="beyond-link" href="__ADMIN__/style/beyond.css" rel="stylesheet" type="text/css">
+    <link href="__ADMIN__/style/demo.css" rel="stylesheet">
+    <link href="__ADMIN__/style/typicons.css" rel="stylesheet">
+    <link href="__ADMIN__/style/animate.css" rel="stylesheet">
+    
+</head>
+<body>
+	<!-- 头部 -->
+    {include file='public/header'}
+	<!-- /头部 -->
+	
+	<div class="main-container container-fluid">
+		<div class="page-container">
+			<!-- Page Sidebar -->
+            {include file='public/left'}
+            <!-- /Page Sidebar -->
+            <!-- Page Content -->
+            <div class="page-content">
+                <!-- Page Breadcrumb -->
+                <div class="page-breadcrumbs">
+                    <ul class="breadcrumb">
+                        <li>
+                            <a href="{:url('index/index')}">系统</a>
+                        </li>
+                        <li class="active">配置管理</li>
+                    </ul>
+                </div>
+                <!-- /Page Breadcrumb -->
+
+                <!-- Page Body -->
+                <div class="page-body">
+<div class="row">
+    <div class="col-lg-12 col-sm-12 col-xs-12">
+        <div class="widget">
+            <div class="widget-body">
+                <div class="flip-scroll">
+<form action="" method="post">
+    <table class="table table-bordered table-hover">
+        <thead class="">
+            <tr>
+                <th class="text-center">ID</th>
+                <th class="text-center">中文名称</th>
+                <th class="text-center">英文名称</th>
+                <th class="text-center">配置值</th>
+            </tr>
+        </thead>
+        <tbody>
+            {volist name='confres' id='vo'}
+            <tr>
+                <td align="center" style="vertical-align:middle ">{$vo.id}</td>
+                <td align="center" style="vertical-align:middle ">{$vo.cnname}</td>
+                <td align="center" style="vertical-align:middle ">{$vo.enname}</td>
+<td align="center" style="vertical-align:middle ">
+{switch name="vo.type"}
+    {case value="1"}
+        <!-- 单行文本 -->
+        <input class="form-control" required="true"  placeholder="" name="{$vo.id}" type="text" value="{$vo.value}">
+    {/case}
+    {case value="2"}
+        <!-- 多行文本 -->
+        <textarea class="form-control" placeholder="" name="{$vo.id}">{$vo.value}</textarea>
+    {/case}
+    {case value="3"}
+        <!-- 单选按钮 -->
+        <div class="form-group">
+            <div class="col-sm-6">
+            {volist name=":explode(',',$vo.values )"  id='v'}
+                <label class="radio" style="float:left;margin: 10px 0 10px 30px">
+                    <input {if $vo.value==$v}checked='true'{/if} name="{$vo.id}" value="{$v}"  type="radio">
+                    <span class="text">{$v}</span>
+                </label>
+            {/volist}
+            </div>
+        </div>
+    {/case}
+    {case value="4"}
+        <!-- 复选按钮 -->
+        <div style="margin-left: 45px">
+            {volist name=":explode(',',$vo.values )"  id='v'}
+            <div class="col-sm-6" style="width: 90px;padding: 0;">
+                <div class="checkbox" style="padding: 0;float: left">
+                    <label style="float: left;">
+                        <input {if mb_strpos($vo.value,$v) !== false}checked="true"{/if} name="{$vo.id}[]" value="{$v}" type="checkbox">
+                        <span class="text">{$v}</span>
+                    </label>
+                </div>
+            </div>
+            {/volist}
+        </div>
+    {/case}
+    {case value="5"}
+    <!-- 下拉菜单 -->
+        <div class="form-group" >
+            <div class="col-sm-6" style="width:100px;">
+                <select name="{$vo.id}">
+                    {volist name=":explode(',',$vo.values )" id='v'}
+                        <option value="{$v}" {if $vo.value==$v}selected='true'{/if}>{$v}</option>
+                    {/volist}
+                </select>
+            </div>
+        </div>
+    {/case}
+    {default /}<span style="color:red" >未知类型</span>
+{/switch}
+</td>
+            </tr>
+            {/volist}
+            <tr>
+                <td colspan="4" align="center">
+                <div class="col-sm-offset-2 col-sm-10" style="margin: 0;width: 100%">
+                    <button type="submit" class="btn btn-default">保存信息</button>
+                </div>
+                </td>
+            </tr>
+        </tbody>
+    </div>
+    </table>
+</form>
+                </div>
+                <div style="padding-top:10px;text-align: center;">
+                </div>
+                <div>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                </div>
+                <!-- /Page Body -->
+            </div>
+            <!-- /Page Content -->
+		</div>	
+	</div>
+
+	    <!--Basic Scripts-->
+    <script src="__ADMIN__/style/jquery_002.js"></script>
+    <script src="__ADMIN__/style/bootstrap.js"></script>
+    <script src="__ADMIN__/style/jquery.js"></script>
+    <!--Beyond Scripts-->
+    <script src="__ADMIN__/style/beyond.js"></script>
+
+
+</body></html>

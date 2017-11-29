@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html><head>
+        <meta charset="utf-8">
+    <title>管理员管理</title>
+
+    <meta name="description" content="Dashboard">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!--Basic Styles-->
+    <link href="__ADMIN__/style/bootstrap.css" rel="stylesheet">
+    <link href="__ADMIN__/style/font-awesome.css" rel="stylesheet">
+    <link href="__ADMIN__/style/weather-icons.css" rel="stylesheet">
+
+    <!--Beyond styles-->
+    <link id="beyond-link" href="__ADMIN__/style/beyond.css" rel="stylesheet" type="text/css">
+    <link href="__ADMIN__/style/demo.css" rel="stylesheet">
+    <link href="__ADMIN__/style/typicons.css" rel="stylesheet">
+    <link href="__ADMIN__/style/animate.css" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- 头部 -->
+    {include file='public/header'}
+    <!-- /头部 -->
+    
+    <div class="main-container container-fluid">
+        <div class="page-container">
+            <!-- Page Sidebar -->
+            {include file='public/left'}
+            <!-- /Page Sidebar -->
+            <!-- Page Content -->
+            <div class="page-content">
+                <!-- Page Breadcrumb -->
+                <div class="page-breadcrumbs">
+                    <ul class="breadcrumb">
+                                        <li>
+                        <a href="{:url('admin/index/index')}">系统</a>
+                    </li>
+                                        <li>
+                        <a href="{:url('showlist')}">管理员管理</a>
+                    </li>
+                                        <li class="active">修改管理员</li>
+                                        </ul>
+                </div>
+                <!-- /Page Breadcrumb -->
+
+                <!-- Page Body -->
+                <div class="page-body">
+                    
+<div class="row">
+    <div class="col-lg-12 col-sm-12 col-xs-12">
+        <div class="widget">
+            <div class="widget-header bordered-bottom bordered-blue">
+                <span class="widget-caption">修改管理员</span>
+            </div>
+            <div class="widget-body">
+                <div id="horizontal-form">
+                    <form class="form-horizontal" role="form" action="" method="post" data-example-id="input-group-with-checkbox-radio">
+                        <input type="hidden" name="id" value="{$admin.id}">
+
+                        <div class="form-group" style="margin:40px auto;position: relative;width: 800px">
+                          <div class="col-lg-6">
+                            <div class="input-group" style="width:700px">
+                              <span class="input-group-addon" style="width: 140px;">管理员名称</span>
+                              <input type="text" class="form-control" name="name" required=""  value="{$admin.name}"  style="width:450px">
+                            </div><!-- /input-group -->
+                            
+                          </div><!-- /.col-lg-6 -->
+                          <p class="help-block col-sm-4 red" style="position: absolute;top:0px;right:-80px;">* 必填</p>
+                        </div>
+
+                        <div class="form-group" style="margin:40px auto;position: relative;width: 800px;">
+                          <div class="col-lg-6">
+                            <div class="input-group" style="width:700px">
+                              <span class="input-group-addon" style="width: 140px;">
+                                <label for="pwd_ckeck" style="position: absolute;top:10px;left:10px;font-size: 14px">是否重置密码</label>
+                                <input type="checkbox" aria-label="Checkbox for following text input" id='pwd_ckeck' style="opacity:1;position: absolute;top:8px;left:110px;">
+                              </span>
+                              <input type="text" class="form-control" aria-label="Text input with checkbox" id="pwd_input" required="" name="password" disabled="true" placeholder="选中按钮后可输入新密码" style="width:450px">
+                            </div><!-- /input-group -->
+                          </div><!-- /.col-lg-6 -->
+                        </div>
+
+                        {if session('admin_name')=='admin'}
+                        <div class="form-group" style="margin:40px auto;position: relative;width: 800px">
+                            <div class="col-lg-6">
+                            <div class="input-group" style="width:700px">
+                                <span class="input-group-addon" style="width: 140px;">所属组别</span>
+                                <select name="cateid">
+                                    {volist name='groups' id='vo'}
+                                        <option {if $vo.id=$admin.group_id}{/if} value="{$vo.id}" title="{:implode(',',$vo.rules)}">{$vo.title}</option>
+                                    {/volist}
+                                </select>
+                            </div><!-- /input-group -->
+                          </div><!-- /.col-lg-6 -->
+                          <p class="help-block col-sm-4 red" style="position: absolute;top:0px;right:-80px;">* 必填</p>
+                        </div>
+                        {/if}
+
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10" style="margin-left: 400px;">
+                                <button type="submit" class="btn btn-default">保存信息</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                </div>
+                <!-- /Page Body -->
+            </div>
+            <!-- /Page Content -->
+        </div>  
+    </div>
+
+        <!--Basic Scripts-->
+    <script src="__ADMIN__/style/jquery_002.js"></script>
+    <script src="__ADMIN__/style/bootstrap.js"></script>
+    <script src="__ADMIN__/style/jquery.js"></script>
+    <!--Beyond Scripts-->
+    <script src="__ADMIN__/style/beyond.js"></script>
+    
+<script type="text/javascript">
+    $(function() {
+        $('[type=checkbox]').change(function () {
+            if (this.checked) {
+                $('#pwd_input').attr('disabled',false);
+                $('#pwd_input').attr('style','width:450px;border:1px solid #9d9d9d;');
+                $('#pwd_input').focus();
+            }else{
+                $('#pwd_input').attr('disabled',true);
+                $('#pwd_input').attr('style','width:450px;');
+            }
+        });
+        $('[type=text]').focus(function () {
+            this.style='width:450px;border:2px solid #9d9d9d;font:14px bold';
+        });
+        $('[type=text]').blur(function () {
+            this.style='width:450px;border:1px solid #9d9d9d;';
+        });
+    })
+</script>
+
+</body></html>
