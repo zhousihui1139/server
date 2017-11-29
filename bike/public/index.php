@@ -12,6 +12,6 @@
 // [ 应用入口文件 ]
 
 // 定义应用目录
-define('APP_PATH', 'http://120.79.42.170/bike/application/');
+define(&#39;APP_PATH&#39;, __DIR__ . &#39;/../application/&#39;);
 // 加载框架引导文件
-require 'http://120.79.42.170/bike/thinkphp/start.php';
+require __DIR__ . &#39;/../thinkphp/start.php&#39;;
