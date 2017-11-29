@@ -1,0 +1,3474 @@
+---------------------------------------------------------------
+[ 2017-11-04T09:30:45+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/ [运行时间：0.254015s][吞吐率：3.94req/s] [内存消耗：1,998.73kb] [文件加载：51]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\WWW\project\tp5\bike\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T09:30:52+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin [运行时间：0.116007s][吞吐率：8.62req/s] [内存消耗：2,037.76kb] [文件加载：52]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\WWW\project\tp5\bike\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T09:31:14+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin [运行时间：0.031001s][吞吐率：32.26req/s] [内存消耗：2,038.20kb] [文件加载：52]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\WWW\project\tp5\bike\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T09:31:15+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：2,038.20kb] [文件加载：52]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\WWW\project\tp5\bike\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T09:31:16+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：2,038.20kb] [文件加载：52]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\WWW\project\tp5\bike\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T09:31:17+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin [运行时间：0.027002s][吞吐率：37.03req/s] [内存消耗：2,038.27kb] [文件加载：52]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\WWW\project\tp5\bike\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T09:31:17+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin [运行时间：0.024002s][吞吐率：41.66req/s] [内存消耗：2,038.27kb] [文件加载：52]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\WWW\project\tp5\bike\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T09:31:17+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin [运行时间：0.030001s][吞吐率：33.33req/s] [内存消耗：2,038.27kb] [文件加载：52]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\WWW\project\tp5\bike\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T09:31:18+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：2,038.27kb] [文件加载：52]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\WWW\project\tp5\bike\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T09:31:18+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin [运行时间：0.047002s][吞吐率：21.28req/s] [内存消耗：2,038.27kb] [文件加载：52]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\WWW\project\tp5\bike\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T09:31:19+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin [运行时间：0.028001s][吞吐率：35.71req/s] [内存消耗：2,038.27kb] [文件加载：52]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\WWW\project\tp5\bike\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T09:31:40+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin [运行时间：0.142009s][吞吐率：7.04req/s] [内存消耗：1,709.84kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION)[E:\WWW\project\tp5\bike\application\admin\controller\Base.php:6]
+---------------------------------------------------------------
+[ 2017-11-04T09:32:40+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,996.13kb] [文件加载：54]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'think\session' not found[E:\WWW\project\tp5\bike\application\admin\controller\Base.php:9]
+---------------------------------------------------------------
+[ 2017-11-04T09:32:49+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin [运行时间：0.235014s][吞吐率：4.26req/s] [内存消耗：2,043.75kb] [文件加载：54]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T09:32:52+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/login/login.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/login/login.html [运行时间：0.024002s][吞吐率：41.66req/s] [内存消耗：1,975.63kb] [文件加载：51]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\WWW\project\tp5\bike\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T09:33:14+08:00 ] 127.0.0.1 127.0.0.1 POST /project/tp5/bike/public/index.php/admin/login/login.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/login/login.html [运行时间：0.142008s][吞吐率：7.04req/s] [内存消耗：3,135.80kb] [文件加载：60]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '26',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\WWW\project\tp5\bike\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.029002s ] mysql:host=127.0.0.1;port=3306;dbname=bike;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_admin` WHERE  `name` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-04T09:33:15+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/index/index.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/index/index.html [运行时间：0.028001s][吞吐率：35.71req/s] [内存消耗：2,042.47kb] [文件加载：53]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\WWW\project\tp5\bike\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T10:36:52+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/index/index.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/index/index.html [运行时间：0.204012s][吞吐率：4.90req/s] [内存消耗：2,216.45kb] [文件加载：55]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\WWW\project\tp5\bike\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T10:36:56+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/index/index.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/index/index.html [运行时间：0.025001s][吞吐率：40.00req/s] [内存消耗：2,043.13kb] [文件加载：53]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\WWW\project\tp5\bike\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T10:43:15+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/index/index.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/index/index.html [运行时间：0.076005s][吞吐率：13.16req/s] [内存消耗：2,216.45kb] [文件加载：55]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\WWW\project\tp5\bike\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T10:43:16+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/showlist.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html [运行时间：0.210012s][吞吐率：4.76req/s] [内存消耗：2,817.70kb] [文件加载：63]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'showlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->showlist[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=bike;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bk_cate` LIMIT 1 [ RunTime:0.001001s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'[E:\WWW\project\tp5\bike\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2017-11-04T10:43:42+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/showlist.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：2,817.94kb] [文件加载：63]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'showlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->showlist[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=bike;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bk_cate` LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'[E:\WWW\project\tp5\bike\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2017-11-04T10:43:44+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/showlist.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html [运行时间：0.041003s][吞吐率：24.39req/s] [内存消耗：2,818.01kb] [文件加载：63]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'showlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->showlist[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=bike;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bk_cate` LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'[E:\WWW\project\tp5\bike\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2017-11-04T10:43:44+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/showlist.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：2,818.01kb] [文件加载：63]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'showlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->showlist[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=bike;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bk_cate` LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'[E:\WWW\project\tp5\bike\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2017-11-04T10:43:44+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/showlist.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html [运行时间：0.063003s][吞吐率：15.87req/s] [内存消耗：2,818.01kb] [文件加载：63]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'showlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->showlist[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020001s ] mysql:host=127.0.0.1;port=3306;dbname=bike;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bk_cate` LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'[E:\WWW\project\tp5\bike\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2017-11-04T10:43:47+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/index/index.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/index/index.html [运行时间：0.029001s][吞吐率：34.48req/s] [内存消耗：2,043.13kb] [文件加载：53]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\WWW\project\tp5\bike\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T10:43:55+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/index/index.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/index/index.html [运行时间：0.061003s][吞吐率：16.39req/s] [内存消耗：2,043.20kb] [文件加载：53]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\WWW\project\tp5\bike\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T10:43:56+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/showlist.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html [运行时间：0.136008s][吞吐率：7.35req/s] [内存消耗：3,124.19kb] [文件加载：63]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'showlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->showlist[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\showlist.html [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=bike;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bk_cate` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`catename` FROM `bk_cate` LIMIT 0,5 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-04T10:44:15+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/showlist.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html [运行时间：0.038003s][吞吐率：26.31req/s] [内存消耗：2,860.79kb] [文件加载：58]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'showlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->showlist[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\showlist.html [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=bike;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `id`,`catename` FROM `bk_cate` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-04T10:44:15+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/showlist.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html [运行时间：0.058003s][吞吐率：17.24req/s] [内存消耗：2,860.79kb] [文件加载：58]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'showlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->showlist[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\showlist.html [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=bike;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `id`,`catename` FROM `bk_cate` [ RunTime:0.011001s ]
+---------------------------------------------------------------
+[ 2017-11-04T10:45:49+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/add.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/add.html [运行时间：0.065004s][吞吐率：15.38req/s] [内存消耗：1,997.17kb] [文件加载：54]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T10:45:50+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/showlist.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：3,043.61kb] [文件加载：60]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'showlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->showlist[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\showlist.html [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=bike;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`catename` FROM `bk_cate` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-04T10:46:21+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/showlist.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：2,861.03kb] [文件加载：58]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'showlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->showlist[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\showlist.html [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=bike;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `id`,`catename` FROM `bk_cate` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-04T10:46:22+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/add.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/add.html [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：2,215.02kb] [文件加载：55]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->add[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T10:53:04+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/add.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/add.html [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：2,223.09kb] [文件加载：55]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->add[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T10:53:28+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/add.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/add.html [运行时间：0.028001s][吞吐率：35.71req/s] [内存消耗：2,223.09kb] [文件加载：55]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->add[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T10:57:52+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/add.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/add.html [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：2,223.09kb] [文件加载：55]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->add[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T10:57:54+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/add.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/add.html [运行时间：0.026002s][吞吐率：38.46req/s] [内存消耗：2,048.40kb] [文件加载：53]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->add[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T10:57:54+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/add.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/add.html [运行时间：0.040003s][吞吐率：25.00req/s] [内存消耗：2,048.40kb] [文件加载：53]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->add[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T11:01:07+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/add.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/add.html [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：2,223.09kb] [文件加载：55]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->add[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T11:01:07+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/add.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/add.html [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：2,048.33kb] [文件加载：53]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->add[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T11:01:08+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/add.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/add.html [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：2,048.33kb] [文件加载：53]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->add[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T11:01:08+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/add.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/add.html [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：2,048.33kb] [文件加载：53]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->add[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T11:01:08+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/add.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/add.html [运行时间：0.029001s][吞吐率：34.48req/s] [内存消耗：2,048.33kb] [文件加载：53]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->add[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T11:01:09+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/add.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/add.html [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：2,048.40kb] [文件加载：53]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->add[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T11:01:10+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/add.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/add.html [运行时间：0.141008s][吞吐率：7.09req/s] [内存消耗：2,048.40kb] [文件加载：53]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->add[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T11:01:10+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/add.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/add.html [运行时间：0.028001s][吞吐率：35.71req/s] [内存消耗：2,048.40kb] [文件加载：53]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->add[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T11:01:10+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/add.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/add.html [运行时间：0.025001s][吞吐率：40.00req/s] [内存消耗：2,048.40kb] [文件加载：53]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->add[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T11:01:10+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/add.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/add.html [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：2,048.40kb] [文件加载：53]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->add[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T11:07:49+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/add.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/add.html [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：2,223.22kb] [文件加载：55]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->add[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T11:07:49+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/add.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/add.html [运行时间：0.026002s][吞吐率：38.46req/s] [内存消耗：2,048.45kb] [文件加载：53]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->add[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T11:07:50+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/add.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/add.html [运行时间：0.025001s][吞吐率：40.00req/s] [内存消耗：2,048.45kb] [文件加载：53]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->add[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T11:07:50+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/add.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/add.html [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：2,048.45kb] [文件加载：53]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->add[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T11:11:18+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/add.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/add.html [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：2,223.22kb] [文件加载：55]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->add[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T11:11:19+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/add.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/add.html [运行时间：0.025001s][吞吐率：40.00req/s] [内存消耗：2,048.45kb] [文件加载：53]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->add[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T11:11:20+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/add.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/add.html [运行时间：0.030001s][吞吐率：33.33req/s] [内存消耗：2,048.45kb] [文件加载：53]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->add[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T11:11:20+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/add.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/add.html [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：2,048.45kb] [文件加载：53]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->add[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T11:11:20+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/add.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/add.html [运行时间：0.041003s][吞吐率：24.39req/s] [内存消耗：2,048.45kb] [文件加载：53]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->add[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T11:13:51+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/add.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/add.html [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：2,235.22kb] [文件加载：55]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->add[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T11:15:15+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/add.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/add.html [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：2,235.22kb] [文件加载：55]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->add[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T11:16:02+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/add.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/add.html [运行时间：0.028001s][吞吐率：35.71req/s] [内存消耗：2,235.22kb] [文件加载：55]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->add[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T11:16:02+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/add.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/add.html [运行时间：0.025001s][吞吐率：40.00req/s] [内存消耗：2,048.45kb] [文件加载：53]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->add[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T11:16:02+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/add.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/add.html [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：2,048.45kb] [文件加载：53]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->add[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T11:16:03+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/add.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/add.html [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：2,048.45kb] [文件加载：53]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->add[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T11:16:03+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/add.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/add.html [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：2,048.45kb] [文件加载：53]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->add[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T11:16:22+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/add.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/add.html [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：2,235.22kb] [文件加载：55]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->add[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T11:16:23+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/admin/showlist.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/admin/showlist.html [运行时间：0.078004s][吞吐率：12.82req/s] [内存消耗：3,135.15kb] [文件加载：63]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'showlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/cate/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->showlist[ E:\WWW\project\tp5\bike\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\admin\showlist.html [ array (
+  0 => 'adminres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=bike;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bk_admin` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `bk_admin` LIMIT 0,5 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-04T11:16:25+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/admin/add.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/admin/add.html [运行时间：0.069004s][吞吐率：14.49req/s] [内存消耗：2,231.42kb] [文件加载：55]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/admin/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ E:\WWW\project\tp5\bike\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\admin\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-04T11:16:29+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/admin/showlist.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/admin/showlist.html [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：2,956.41kb] [文件加载：61]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'showlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->showlist[ E:\WWW\project\tp5\bike\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\admin\showlist.html [ array (
+  0 => 'adminres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001001s ] mysql:host=127.0.0.1;port=3306;dbname=bike;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bk_admin` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `bk_admin` LIMIT 0,5 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-04T11:16:30+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/admin/edit/id/1.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/admin/edit/id/1.html [运行时间：0.064004s][吞吐率：15.62req/s] [内存消耗：3,036.17kb] [文件加载：60]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/admin/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ E:\WWW\project\tp5\bike\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=bike;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `bk_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-04T11:17:04+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/admin/edit/id/1.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/admin/edit/id/1.html [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：3,036.28kb] [文件加载：60]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/admin/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ E:\WWW\project\tp5\bike\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=bike;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `bk_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-04T11:17:04+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/admin/edit/id/1.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/admin/edit/id/1.html [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：2,861.38kb] [文件加载：58]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/admin/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ E:\WWW\project\tp5\bike\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006001s ] mysql:host=127.0.0.1;port=3306;dbname=bike;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `bk_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-04T11:17:05+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/admin/edit/id/1.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/admin/edit/id/1.html [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：2,861.38kb] [文件加载：58]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/admin/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ E:\WWW\project\tp5\bike\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=bike;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `bk_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2017-11-04T11:17:05+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/admin/edit/id/1.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/admin/edit/id/1.html [运行时间：0.053003s][吞吐率：18.87req/s] [内存消耗：2,861.38kb] [文件加载：58]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/admin/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ E:\WWW\project\tp5\bike\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=bike;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `bk_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-04T11:17:05+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/admin/edit/id/1.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/admin/edit/id/1.html [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：2,861.38kb] [文件加载：58]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/admin/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ E:\WWW\project\tp5\bike\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=bike;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `bk_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-04T11:17:05+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/admin/edit/id/1.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/admin/edit/id/1.html [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：2,861.38kb] [文件加载：58]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/admin/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ E:\WWW\project\tp5\bike\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=bike;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `bk_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-04T11:17:05+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/admin/edit/id/1.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/admin/edit/id/1.html [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：2,861.38kb] [文件加载：58]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/admin/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ E:\WWW\project\tp5\bike\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=bike;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `bk_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-04T11:19:35+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/admin/edit/id/1.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/admin/edit/id/1.html [运行时间：0.069004s][吞吐率：14.49req/s] [内存消耗：3,036.28kb] [文件加载：60]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/admin/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ E:\WWW\project\tp5\bike\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=bike;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `bk_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-04T11:19:37+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/admin/edit/id/1.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/admin/edit/id/1.html [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：2,861.45kb] [文件加载：58]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/admin/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ E:\WWW\project\tp5\bike\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=bike;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `bk_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-04T11:19:37+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/admin/edit/id/1.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/admin/edit/id/1.html [运行时间：0.065004s][吞吐率：15.38req/s] [内存消耗：2,861.45kb] [文件加载：58]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/admin/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ E:\WWW\project\tp5\bike\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.029001s ] mysql:host=127.0.0.1;port=3306;dbname=bike;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `bk_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-04T11:19:37+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/admin/edit/id/1.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/admin/edit/id/1.html [运行时间：0.076005s][吞吐率：13.16req/s] [内存消耗：2,861.45kb] [文件加载：58]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/admin/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ E:\WWW\project\tp5\bike\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:host=127.0.0.1;port=3306;dbname=bike;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `bk_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2017-11-04T11:21:27+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/admin/edit/id/1.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/admin/edit/id/1.html [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：3,036.28kb] [文件加载：60]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/admin/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ E:\WWW\project\tp5\bike\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=bike;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `bk_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-04T11:21:27+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/admin/edit/id/1.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/admin/edit/id/1.html [运行时间：0.067004s][吞吐率：14.92req/s] [内存消耗：2,861.38kb] [文件加载：58]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/admin/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ E:\WWW\project\tp5\bike\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024001s ] mysql:host=127.0.0.1;port=3306;dbname=bike;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `bk_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-04T11:22:00+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/admin/edit/id/1.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/admin/edit/id/1.html [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：3,036.28kb] [文件加载：60]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/admin/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ E:\WWW\project\tp5\bike\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=bike;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `bk_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-04T11:22:00+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/admin/edit/id/1.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/admin/edit/id/1.html [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：2,861.38kb] [文件加载：58]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/admin/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ E:\WWW\project\tp5\bike\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=bike;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `bk_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-04T11:22:20+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/admin/edit/id/1.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/admin/edit/id/1.html [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：3,036.28kb] [文件加载：60]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/admin/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ E:\WWW\project\tp5\bike\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:host=127.0.0.1;port=3306;dbname=bike;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `bk_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-04T11:28:11+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/showlist.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：3,043.98kb] [文件加载：60]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'showlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/admin/edit/id/1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->showlist[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\showlist.html [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=bike;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`catename` FROM `bk_cate` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-04T11:28:19+08:00 ] 127.0.0.1 127.0.0.1 GET /project/tp5/bike/public/index.php/admin/cate/add.html
+[ info ] 127.0.0.1/project/tp5/bike/public/index.php/admin/cate/add.html [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：2,048.38kb] [文件加载：53]
+[ info ] [ LANG ] E:\WWW\project\tp5\bike\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/project/tp5/bike/public/index.php/admin/cate/showlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=pjqgi6s0id8hdjeovfnuj2cnb3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->add[ E:\WWW\project\tp5\bike\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] E:\WWW\project\tp5\bike\public/../application/admin\view\cate\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
