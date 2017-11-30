@@ -97,8 +97,8 @@
 <ul id="ulHot">
 {volist name='hotRes' id='hotart'}
     <li style="border-bottom:dashed 1px #ccc;height:70px; margin-bottom:15px;">
-        <div style="float:left;width:85px;height:55px; overflow:hidden;"><a href=":url('article,index',array('artid'=>$hotart.id))" target="_blank"><img src="PUBLIC/uploads/{$hotart.thumb}" width="83" title="{$hotart.title}" /></a></div>
-        <div style="float:right;width:145px;height:52px; overflow:hidden;"><a href=":url('article,index',array('artid'=>$hotart.id))" target="_blank" title="{$hotart.title}">{$hotart.title}</a></div>  
+        <div style="float:left;width:85px;height:55px; overflow:hidden;"><a href="{:url('article,index',array('artid'=>$hotart.id))}" target="_blank"><img src="PUBLIC/uploads/{$hotart.thumb}" width="83" title="{$hotart.title}" /></a></div>
+        <div style="float:right;width:145px;height:52px; overflow:hidden;"><a href="{:url('article,index',array('artid'=>$hotart.id))}" target="_blank" title="{$hotart.title}">{$hotart.title}</a></div>  
     </li>
 {/volist}
 </ul>
