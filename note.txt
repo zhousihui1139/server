@@ -1,0 +1,74 @@
+
+sublimer:
+—– BEGIN LICENSE —– 
+TwitterInc 
+200 User License 
+EA7E-890007 
+1D77F72E 390CDD93 4DCBA022 FAF60790 
+61AA12C0 A37081C5 D0316412 4584D136 
+94D7F7D4 95BC8C1C 527DA828 560BB037 
+D1EDDD8C AE7B379F 50C9D69D B35179EF 
+2FE898C4 8E4277A8 555CE714 E1FB0E43 
+D5D52613 C3D12E98 BC49967F 7652EED2 
+9D2D2E61 67610860 6D338B72 5CF95C69 
+E36B85CC 84991F19 7575D828 470A92AB 
+—— END LICENSE ——
+
+PotPlayer
+
+phpstorm:http://www.imsxm.com/
+
+3560
+
+202.96.128.166
+
+wget https://dev.mysql.com/get/mysql-5.7.17.tar.gz
+
+Git:
+120.79.42.170
+
+登录
+$ git config --global user.name "yeyueyao"
+$ git config --global user.email  "zhoush1139@163.com"
+
+生成 SSH KEY
+$ ssh-keygen -t rsa -C zhoush1139@163.com
+测试
+$ ssh -T git@github.com
+
+记住用户名密码
+$ touch .git-credentials
+https://yeyueyao:11396z89846@github.com
+
+$ git config --global credential.helper store
+
+
+git pull有冲突时：
+1、先将本地修改存储起来
+
+$ git stash
+这样本地的所有修改就都被暂时存储起来 。是用git stash list可以看到保存的信息
+
+2、pull内容
+
+暂存了本地修改之后，就可以pull了。
+
+$ git pull
+
+3、还原暂存的内容
+
+$ git stash pop stash@{0}
+
+系统提示如下类似的信息：
+Auto-merging c/environ.c
+CONFLICT (content): Merge conflict in c/environ.c
+意思就是系统自动合并修改的内容，但是其中有冲突，需要解决其中的冲突。
+
+4、解决文件中冲突的的部分
+其中Updated upstream 和=====之间的内容就是pull下来的内容，====和stashed changes之间
+的内容就是本地修改的内容。碰到这种情况，git也不知道哪行内容是需要的，所以要自行确定
+需要的内容。
+
+
+app调试工具：
+postman
